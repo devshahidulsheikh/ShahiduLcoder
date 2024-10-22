@@ -1,0 +1,92 @@
+body.login {
+    background: url("../img/login.jpg");
+    display: flex;
+    align-items: center;
+}
+body.login #login {
+    background: rgba(255, 255, 255, 0.4);
+    padding: 40px;
+    border-radius: 24px;
+}
+body.login #loginform {
+    background: none;
+    border: 0;
+    box-shadow: none;
+    padding: 0;
+}
+#login form p.submit {
+    display: block;
+}
+#login form p.submit input {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    background: #FF6600;
+    border: 0;
+    padding: 10px;
+    font-size: 15px;
+    transition: 0.5s;
+}
+#login form p.submit input:hover {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+.login #nav {
+    margin: 0;
+    margin-top: 10px;
+    width: 40%;
+    float: left;
+    padding: 0;
+}
+.login #nav a {
+    margin-top: 5px;
+    display: inline-block;
+}
+.login #backtoblog {
+    margin: 0;
+    margin-top: 10px;
+    width: 60%;
+    float: right;
+    text-align: right;
+    padding: 0;
+}
+.login #backtoblog a {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    padding: 6px 15px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.login #backtoblog a:hover {
+    background: #fff;
+    color: #000;
+}
+.login #login_error,
+.login .message,
+.login .success {
+    border-left: 4px solid #FF6600;
+}
+input#user_login,
+input#user_pass {
+    border: 0;
+    border-left: 4px solid #FF6600;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 0;
+}
+input[type=text]:focus,input[type=password]:focus {
+    box-shadow: 0 0 0 1px #FF6600;
+}
+.login .button.wp-hide-pw:focus {
+    border-color: #FF6600;
+    box-shadow: 0 0 0 1px #FF6600;
+}
+.wp-core-ui .button-secondary {
+    color: #FF6600;
+}
+.wp-core-ui .button-secondary:hover,
+.wp-core-ui .button-secondary:focus {
+    border-color: #FF6600;
+}
